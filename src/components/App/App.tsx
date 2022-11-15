@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import ListOfCountries from '../ListOfCountries/ListOfCountries';
 import Home from '../Home/Home';
 
-function App(props) {
+const App = () => {
   return (
     <Router>
       <div className='App'>

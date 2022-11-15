@@ -1,6 +1,6 @@
 import './Home.css';
 
-function Home(props) {
+function Home(props: any) {
     return (
         <div className='Appflex'>
             <p>Justin Bieber says: Moo</p>
